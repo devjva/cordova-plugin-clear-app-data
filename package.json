@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/thorvx/cordova-plugin-clear-app-data",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/thorvx/cordova-plugin-clear-app-data",
+        "spec": "git+https://github.com/thorvx/cordova-plugin-clear-app-data.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:thorvx/cordova-plugin-clear-app-data.git",
+          "sshUrl": "git+ssh://git@github.com/thorvx/cordova-plugin-clear-app-data.git",
+          "httpsUrl": "git+https://github.com/thorvx/cordova-plugin-clear-app-data.git",
+          "gitUrl": "git://github.com/thorvx/cordova-plugin-clear-app-data.git",
+          "shortcut": "github:thorvx/cordova-plugin-clear-app-data",
+          "directUrl": "https://raw.githubusercontent.com/thorvx/cordova-plugin-clear-app-data/master/package.json"
+        }
+      },
+      "/Users/lucasviniciusbrasil/Dropbox/iPGuard - TurnKey V2/iPGuard - TurnKey V2"
+    ]
+  ],
+  "_from": "git+https://github.com/thorvx/cordova-plugin-clear-app-data.git",
+  "_id": "cordova-plugin-clear-app-data@0.0.3",
+  "_inCache": true,
+  "_location": "/cordova-plugin-clear-app-data",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/thorvx/cordova-plugin-clear-app-data",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/thorvx/cordova-plugin-clear-app-data",
+    "spec": "git+https://github.com/thorvx/cordova-plugin-clear-app-data.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:thorvx/cordova-plugin-clear-app-data.git",
+      "sshUrl": "git+ssh://git@github.com/thorvx/cordova-plugin-clear-app-data.git",
+      "httpsUrl": "git+https://github.com/thorvx/cordova-plugin-clear-app-data.git",
+      "gitUrl": "git://github.com/thorvx/cordova-plugin-clear-app-data.git",
+      "shortcut": "github:thorvx/cordova-plugin-clear-app-data",
+      "directUrl": "https://raw.githubusercontent.com/thorvx/cordova-plugin-clear-app-data/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/thorvx/cordova-plugin-clear-app-data.git#100f7225110a7f69ae641276a30ab66ca43ccc54",
+  "_shasum": "cb7936989fef1867bcf90ad1e56c076bf1f41549",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/thorvx/cordova-plugin-clear-app-data",
+  "_where": "/Users/lucasviniciusbrasil/Dropbox/iPGuard - TurnKey V2/iPGuard - TurnKey V2",
+  "author": {
+    "name": "Diego Olguin",
+    "email": "diego.ot@gmail.com",
+    "url": "http://www.dot-bo.com"
+  },
+  "bugs": {
+    "url": "https://github.com/thorvx/cordova-plugin-clear-app-data/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-clear-app-data",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova plugin to clear locally persistent user data on Android and iOS.",
+  "devDependencies": {},
+  "gitHead": "100f7225110a7f69ae641276a30ab66ca43ccc54",
+  "homepage": "https://github.com/thorvx/cordova-plugin-clear-app-data",
+  "keywords": [
+    "cordova",
+    "webview",
+    "cache",
+    "clear",
+    "ios",
+    "android",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-clear-app-data",
+  "optionalDependencies": {},
+  "readme": "\nUsage\n====\n```javascript\ndocument.addEventListener('deviceready', onDeviceReady);\nfunction onDeviceReady()\n{\n        var success = function(status) {\n            alert('Message: ' + status);\n        }\n\n        var error = function(status) {\n            alert('Error: ' + status);\n        }\n\n        window.ClearData.clear( success, error );\n}\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorvx/cordova-plugin-clear-app-data.git"
+  },
+  "version": "0.0.3"
+}
